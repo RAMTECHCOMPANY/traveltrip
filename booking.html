@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حجز الرحلات | رحلة REHLA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="webfonts/all.min.css">
+</head>
+<body>
+    <div class="icon">
+        <div class="icon-social" >
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+            <a href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+            <a href=""><i class="fab fa-instagram fw-normal"></i></a>
+            <a href=""><i class="fab fa-youtube fw-normal"></i></a>
+        </div>
+        <div class="icon-log">
+            <a href="#"><i class="fa fa-user me-2"></i>تسجيل</a>
+            <a href="#"><i class="fa fa-sign-in-alt me-2"></i>تسجيل الدخول</a>
+        </div>
+      </div>
+    <header>
+        <div class="container">
+            <h1>رحله REHLA</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">الصفحة الرئيسية</a></li>
+                    <li><a href="about.html">عنّا</a></li>
+                    <li><a href="culture.html">المواقع الثقافية</a></li>
+                    <li><a class="active" href="booking.html">حجز الرحلات</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <button id="toggle-menue">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="booking">
+            <div class="container">
+                <div class="booking-content">
+                    <div class="booking-text">
+                        <h2>حجز تذاكر الموقع الثقافي</h2>
+                        <p>حجز رحلات ثقافية سهلة مع رحلة REHLA.</p>
+                        <p>توفر رحلة حجز رحلات ثقافية سلسلة ةسهلة الاستخدام اتبع الخطوات التالية لاكمال حجزك</p>
+                        <button id="btn-read">اقرأ المزيد</button>  
+                    </div>
+                    <div class="booking-form">
+                        <form action="#" method="POST">
+                            <div class="form-group">
+                                <label for="site">الموقع الثقافي:</label>
+                                <select id="site" name="site">
+                                    <option value="">اختر الموقع الثقافي</option>
+                                    <option value="museum">متحف الرياض الوطني</option>
+                                    <option value="historical-landmark">برج المملكة</option>
+                                    <option value="archaeological-site">موقع مدائن صالح</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="date">التاريخ:</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">الوقت:</label>
+                                <select id="time" name="time">
+                                    <option value="">اختر الوقت</option>
+                                    <option value="9am">9:00 صباحًا</option>
+                                    <option value="10am">10:00 صباحًا</option>
+                                    <option value="11am">11:00 صباحًا</option>
+                                    </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="tickets">عدد التذاكر:</label>
+                                <input type="number" id="tickets" name="tickets" min="1" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">الاسم:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">البريد الإلكتروني:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="payment">طريقة الدفع:</label>
+                                <select id="payment" name="payment">
+                                    <option value="">اختر طريقة الدفع</option>
+                                    <option value="credit-card">بطاقة الائتمان</option>
+                                    <option value="e-wallet">محفظة إلكترونية</option>
+                                </select>
+                            </div>
+                            <div class="success">
+                                   
+                            </div>
+                            <div class="error">
+                                <p>خطأ: يرجى اختيار موقع ثقافي.</p>
+                            </div>
+                            <button type="submit">حجز</button>
+                        </form>
+                    </div>
+                </div>
+            </div>      
+        </section>
+    </main>
+
+    <footer>
+        <div class="f-container">
+            <div class="section1">
+                <h3>Get in Touch</h3>
+                <div>
+                    <a href="#">
+                        <i class="fas fa-home"></i>
+                        <span>شارع الملك فيصل، الرياض</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <i class="fa fa-envelope"></i>
+                        <span>rehlah@gmail.com</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <i class="fas fa-phone"></i>
+                        <span>+966 554874888</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <i class="fas fa-print"></i>
+                        <span>+966 576568766</span>
+                    </a>
+                </div>
+                <div class="share">
+                    <span><i class="fas fa-share"></i></span>
+                    <div class="f-socail">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="section2">
+                <h3>رحلة </h3>
+                <div>
+                    <ul>
+                        <li><a href="about.html"><i class="fas fa-angle-right me-2"></i>عنا</a></li>
+                        <li><a href="culture.html"><i class="fas fa-angle-right me-2"></i>المواقع الثقافية</a></li>
+                        <li><a href="booking.html"><i class="fas fa-angle-right me-2"></i>حجز الرحلات</a></li>
+                        <li><a href="contact.html"><i class="fas fa-angle-right me-2"></i>اتصل بنا</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>بطاقات الهدايا</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>مجلة</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section3">
+                <h3>الدعم</h3>
+                <div>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>تواصل</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>قانونية</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>سياسية الخصوصية</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>الشروط</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>خريطة الموقع</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right me-2"></i>ملفات تعريف الارتباط</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section4">
+                <div class="sub1-section4">
+                    <div class="language">
+                        <p id="en">English</p>
+                        <p id="ar">Arabic</p>
+                    </div>
+                    <div class="currency">
+                        <p id="s">S</p>
+                        <p id="us">USD</p>
+                    </div>
+                </div>
+                <div class="sub2-section4">
+                    <h4>الدفع</h4>
+                    <div class="payments">
+                        <a href="#"><i class="fab fa-cc-amex fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-cc-visa fa-2x"></i></a>
+                        <a href="#"><i class="fas fa-credit-card fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-cc-mastercard fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-cc-paypal fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-cc-discover fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copy">&copy; 2024 رحله REHLA. جميع الحقوق محفوظة.</p>
+    </footer>
+    <i class="fas fa-arrow-up" id="scroll"></i>
+    <script src="js/main.js"></script>
+    <script src="js/project.js"></script>
+    <script src="js/booking.js"></script>
+</body>
+</html>
